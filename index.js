@@ -26,18 +26,22 @@ const test = (whatWeTest, actualResult, expectedResult) => {
 
 // Functions
 
+// eslint-disable-next-line no-unused-vars
 const getType = (value) => {
     // Return string with a native JS type of value
 };
 
+// eslint-disable-next-line no-unused-vars
 const getTypesOfItems = (arr) => {
     // Return array with types of items of given array
 };
 
+// eslint-disable-next-line no-unused-vars
 const allItemsHaveTheSameType = (arr) => {
     // Return true if all items of array have the same type
 };
 
+// eslint-disable-next-line no-unused-vars
 const getRealType = (value) => {
     // Return string with a “real” type of value.
     // For example:
@@ -49,15 +53,18 @@ const getRealType = (value) => {
     // 12-13 unique types but you can find out in JS even more :)
 };
 
+// eslint-disable-next-line no-unused-vars
 const getRealTypesOfItems = (arr) => {
     // Return array with real types of items of given array
 };
 
+// eslint-disable-next-line no-unused-vars
 const everyItemHasAUniqueRealType = (arr) => {
     // Return true if there are no items in array
     // with the same real type
 };
 
+// eslint-disable-next-line no-unused-vars
 const countRealTypes = (arr) => {
     // Return an array of arrays with a type and count of items
     // with this type in the input array, sorted by type.
